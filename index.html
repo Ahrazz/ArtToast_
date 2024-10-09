@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Toast - Home</title>
+    <title>Art Toast Blog</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -14,31 +14,43 @@
         <nav>
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro">
+        <section class="hero">
             <h1>Welcome to Art Toast</h1>
-            <p>A space dedicated to exploring art, creativity, and visual inspiration. Dive into our colorful world!</p>
+            <p>Explore the world of art, creativity, and vibrant inspiration.</p>
         </section>
-        
-        <section id="gallery" class="gallery-section">
-            <h2>Our Image Gallery</h2>
-            <div class="gallery-container">
-                <div class="gallery-item">
-                    <img src="assets/image1.jpg" alt="Art Piece 1">
-                </div>
-                <div class="gallery-item">
-                    <img src="assets/image2.jpg" alt="Art Piece 2">
-                </div>
-                <div class="gallery-item">
-                    <img src="assets/image3.jpg" alt="Art Piece 3">
-                </div>
+
+        <section id="blog" class="blog-section">
+            <h2>Recent Articles</h2>
+            <div class="blog-container">
+                <!-- Sample Blog Post 1 -->
+                <article class="blog-post">
+                    <h3><a href="blog/article1.html">The History of Modern Art</a></h3>
+                    <p>Explore the evolution of modern art, highlighting the key movements that transformed the artistic landscape...</p>
+                    <a href="blog/article1.html" class="read-more">Read More</a>
+                </article>
+
+                <!-- Sample Blog Post 2 -->
+                <article class="blog-post">
+                    <h3><a href="#">Impressionism: The Birth of Light and Color</a></h3>
+                    <p>Delve into the world of Impressionism, where artists broke free from tradition to embrace a new way of seeing...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
+
+                <!-- Sample Blog Post 3 -->
+                <article class="blog-post">
+                    <h3><a href="#">The Art of Abstract Expressionism</a></h3>
+                    <p>Discover how abstract art became a powerful form of emotional expression, led by artists like Pollock and Rothko...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </article>
             </div>
         </section>
     </main>
