@@ -1,4 +1,4 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,11 +7,10 @@ body {
     color: #333;
 }
 
-/* Header and Menu */
+/* Header Styles */
 header {
-    background-color: #FF6347; /* Tomato color */
-    color: #fff;
-    padding: 15px 20px;
+    background-color: #ff6347; /* Tomato color */
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,44 +34,59 @@ header {
 .menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-weight: bold;
 }
 
-.main {
-    padding: 20px;
+/* Hero Section */
+.hero {
     text-align: center;
+    padding: 50px 20px;
+    background-color: #ffe4b5; /* Moccasin color */
 }
 
-/* Intro Section */
-.intro {
-    background-color: #f5deb3; /* Wheat color */
-    padding: 40px;
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
-/* Gallery */
-.gallery-section {
-    padding: 30px 20px;
+.hero p {
+    font-size: 18px;
+    margin: 0;
 }
 
-.gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Blog Section */
+.blog-section {
+    padding: 50px 20px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.gallery-item img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Blog */
 .blog-post {
-    margin: 20px;
+    background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-post h3 a {
+    color: #ff6347; /* Tomato color for links */
+    text-decoration: none;
+}
+
+.blog-post p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: underline;
 }
 
 /* Footer */
@@ -80,7 +94,5 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: relative;
-    width: 100%;
+    padding: 15px 0;
 }
