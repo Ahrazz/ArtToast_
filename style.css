@@ -1,10 +1,11 @@
 /* General Styles */
+/* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; /* Use Arial as the default font */
     margin: 0;
     padding: 0;
-    background-color: #f5f5dc; /* Beige background */
-    color: #333;
+    background-color: #f5f5dc; /* Set background color to beige */
+    color: #333; /* Text color */
 }
 
 /* Header Styles */
